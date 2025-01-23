@@ -1,0 +1,31 @@
+Predictive-Network-Maintenance-System-Resource-Allocation-Tool
+│
+├── main.py                  # Main entry point for running the backend
+├── requirements.txt         # Dependencies and libraries essential for dockers 
+├── config.py                # Configuration settings (database, API keys, etc)
+├── data/
+│   ├── data_simulation.py   # Data generation and simulation utilities
+│   ├── sample_data.csv      # Optional: Preloaded data samples
+│
+├── models/
+│   ├── __init__.py          # Python folder package
+│   ├── predictive_model.py  # Predictive maintenance model code
+│   ├── procurement_model.py # Procurement optimization model code
+│   ├── energy_model.py      # Energy management model code
+│   └── bandwidth_model.py   # Bandwidth management model code
+│
+├── services/
+│   ├── __init__.py          # Makes the folder a Python package
+│   ├── network_service.py   # Service handling network-related operations
+│   ├── procurement_service.py # Service for procurement recommendations
+│   ├── energy_service.py    # Service managing energy-related data
+│   └── bandwidth_service.py # Service for bandwidth allocation
+│
+├── database/
+│   ├── __init__.py          # Makes the folder a Python package
+│   ├── db_setup.py          # Database connection and setup code
+│   ├── models.py            # Database schema definitions
+│
+└── utils/
+    ├── logger.py            # Logging utility
+    ├── helpers.py           # Helper functions for general use
